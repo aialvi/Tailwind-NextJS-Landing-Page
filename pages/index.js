@@ -2,6 +2,10 @@ import Head from "next/head";
 import Hero from "./components/Hero";
 import styles from "../styles/Home.module.css";
 import Testimonials from "./components/Testimonials";
+import Features from "./components/Features";
+import Statistics from "./components/Statistics";
+import Contact from "./components/Contact";
+import CTA from "./components/CTA";
 
 export default function Home() {
   return (
@@ -17,7 +21,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <Hero />
+        <Features />
+        <Statistics />
         <Testimonials />
+        <CTA />
+        <Contact />
       </main>
 
       <footer className={styles.footer}>
