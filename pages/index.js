@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "./components/Hero";
 import styles from "../styles/Home.module.css";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Hero />
+        <Testimonials />
       </main>
 
       <footer className={styles.footer}>
