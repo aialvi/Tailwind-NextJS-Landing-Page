@@ -9,7 +9,7 @@ import CTA from "./components/CTA";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Invenerry - Inventory Management System</title>
         <meta
