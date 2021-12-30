@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Testimonials from "./components/Testimonials";
 import Features from "./components/Features";
 import Statistics from "./components/Statistics";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import CTA from "./components/CTA";
 
 export default function Home() {
@@ -19,24 +19,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <Hero />
         <Features />
         <Statistics />
         <Testimonials />
         <CTA />
-        <Contact />
+        <Footer />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Invenerry
-        </a>
-      </footer>
     </div>
   );
 }
